@@ -1,0 +1,110 @@
+/* -------------- Coloring -------------- */
+.inputMaroon {
+    border: 3px solid #57001d;
+    background-color: rgba(0, 0, 0, 0.05) ;
+}
+.inputCyan {
+    border: 3px solid #3cc5e6;
+    background-color: rgba(0, 0, 0, 0.1) ;
+}
+.bg-maroon {
+    background-color: #57001d;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.buttonMaroon {
+    background-color: #57001d;
+    color: #FFFFFF;
+    font-weight: 600;
+    height: 50px;
+}
+.buttonMaroon:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #57001d;
+    font-weight: 600;
+}
+.bg-second {
+    background-color: rgba(225, 225, 225, 0.5);
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.bg-navbar {
+    background-color: #930623;
+}
+.maroon {
+    color: #57001d;
+}
+.secondary {
+    color: #00573a;
+}
+
+/* -------------- Shape Styling -------------- */
+
+.login-page-shape {
+    border-radius: 8px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.05);
+}
+.landing-shape {
+    border-radius: 8px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.05);
+}
+.form-shape {
+    border-radius: 8px;
+    background-color: #d4f2f9;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.05);
+}
+.profile-shape {
+    width: 50%;
+    border-radius: 0px;
+    box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.05);
+}
+.top-bottom-border {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.table-border-black {
+    border: 1px solid black ;
+} 
+.circleShadow {
+    box-shadow: 0px 0px 0px 5px black;
+}
+/* -------------- Positioning -------------- */
+
+jc-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* -------------- Other Styling -------------- */
+
+.headlineTitle {
+    font-size: 30px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    color:'black';
+}
+.headlineFill {
+    font-size: 15px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    color:'black';
+}
+.borderBottom {
+    border-bottom: 2px solid black;
+}
+.lightBorderBottom {
+    border-bottom: 1px solid black;
+}
+.lightBorderTop {
+    border-top: 1px solid black;
+}
+/* -------------- Other Styling -------------- */
+
+.link-new {
+    text-decoration: none;
+}
+.description {
+    text-align: justify;
+}
